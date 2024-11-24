@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1450px) {
+    .container2 {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+
+#check+ul {
+    transition: .4s;
+}
+
+#check:checked+ul {
+    left: 0%;
+
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1d72d2;
+    border-radius: 5px;
+}
